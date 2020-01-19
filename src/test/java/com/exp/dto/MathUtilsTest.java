@@ -19,7 +19,7 @@ class MathUtilsTest {
 	MathUtils math;
 
 	@BeforeAll
-	void globalConfig() {
+	static void globalConfig() {
 		System.out.println("Run configs.....");
 
 	}
