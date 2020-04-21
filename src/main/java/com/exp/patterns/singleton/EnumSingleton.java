@@ -1,4 +1,4 @@
-package com.exp.singleton;
+package com.exp.patterns.singleton;
 
 public enum EnumSingleton {
 

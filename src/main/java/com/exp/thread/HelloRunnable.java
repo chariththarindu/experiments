@@ -22,7 +22,7 @@ public class HelloRunnable implements Runnable {
 	public static void main(String args[]) {
 		(new Thread(new HelloRunnable())).start();
 
-		
+		(new Thread(()-> System.out.println("Doing heavy processing - END "+Thread.currentThread().getName()))).toString();
 		
 		
 	}

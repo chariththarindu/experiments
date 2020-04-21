@@ -1,0 +1,13 @@
+package com.exp.patterns.decorator;
+
+public abstract class Beverage {
+	
+	String description = "Some Beverage";
+		
+	public String getDescription() {
+		return description;
+	}
+
+	public abstract Double cost() ;
+
+}

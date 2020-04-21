@@ -7,4 +7,6 @@ public interface Price {
 	default int getPrice(int a, int b) {
 		return a+b;
 	}
+	
+	//String price(String a , String b);
 }

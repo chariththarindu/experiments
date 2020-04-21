@@ -10,8 +10,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.exp.dto.User;
-import com.exp.singleton.EagerSingleton;
-import com.exp.singleton.EnumSingleton;
+import com.exp.patterns.singleton.EagerSingleton;
+import com.exp.patterns.singleton.EnumSingleton;
 
 @SpringBootApplication
 public class ExperimentsApplication {

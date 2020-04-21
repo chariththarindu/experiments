@@ -64,7 +64,7 @@ class UserTest {
 
 	}
 
-	@Test
+	//@Test
 	void testBiConsumerA() {
 		System.out.println("bi Consumer....");
 		testBiConsumer(userList, 2, p -> p.getName().startsWith("T"),
@@ -101,5 +101,13 @@ class UserTest {
 			System.out.println("wraapper called.....");
 			consumer.accept(x, y);};
 	}
+	
+	@Test
+	void testSort() {
+		
+		userList.sort( Comparator.comparing(User::getAge));
+		userList.forEach(System.out::println);
+	}
 
+	
 }
