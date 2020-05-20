@@ -4,7 +4,7 @@ public abstract class Beverage {
 	
 	String description = "Some Beverage";
 		
-	public String getDescription() {
+	protected String getDescription() {
 		return description;
 	}
 

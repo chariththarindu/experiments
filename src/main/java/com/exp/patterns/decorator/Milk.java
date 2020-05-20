@@ -7,6 +7,7 @@ public class Milk extends BeverageDecorator{
 	public Milk(Beverage beverage) {
 		super();
 		this.beverage = beverage;
+		super.description = this.beverage.description +   "aded milk";
 	}
 
 	@Override
