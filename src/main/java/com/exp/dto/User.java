@@ -17,6 +17,7 @@ public class User {
 	private String postalCode;
 	private int age;
 	private String lastName;
+	private String address;
 	
 	
 	
