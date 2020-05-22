@@ -19,6 +19,7 @@ public class User {
 	private String lastName;
 	private String address;
 	private String middleName;
+	private String idNumber;
 	
 	
 	
