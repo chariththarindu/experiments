@@ -18,6 +18,7 @@ public class User {
 	private int age;
 	private String lastName;
 	private String address;
+	private String middleName;
 	
 	
 	
